@@ -10,7 +10,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 20px);
-    grid-gap: 1px;
+    grid-gap: 3px;
 }
 
 .cell {
