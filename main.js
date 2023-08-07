@@ -82,4 +82,4 @@ function startGame(rows, cols, generations) {
 }
 
 // Запускаем игру.
-startGame(10, 10, 10);
+startGame(10, 10, 15);
