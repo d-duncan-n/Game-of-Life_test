@@ -78,7 +78,7 @@ function startGame(rows, cols, generations) {
     grid = updateGrid(grid);
     // Добавьте задержку между поколениями, чтобы было видно изменение.
     // Например: await new Promise(resolve => setTimeout(resolve, 1000));
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    await new Promise(resolve => setTimeout(resolve, 500));
   }
 }
 
